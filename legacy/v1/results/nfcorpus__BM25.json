@@ -1,0 +1,6 @@
+{
+  "dataset": "nfcorpus",
+  "model": "BM25",
+  "nDCG@10": 0.3076,
+  "Recall@100": 0.2368
+}
