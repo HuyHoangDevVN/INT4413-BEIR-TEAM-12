@@ -1,0 +1,6 @@
+{
+  "dataset": "scifact",
+  "model": "BM25+ms-marco-MiniLM-L-6-v2",
+  "nDCG@10": 0.6765,
+  "Recall@100": 0.8731
+}
