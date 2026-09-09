@@ -1,0 +1,4 @@
+-r requirements-core.txt
+-r requirements-neural.txt
+-r requirements-optional.txt
+elasticsearch==7.17.12
