@@ -1,0 +1,33 @@
+paper: arxiv:2104.08663v4
+paper_section: '4; Table 2; Table 6'
+upstream_repository: https://github.com/beir-cellar/beir
+upstream_commit: 52de18ae6f1ccc7426eb70895c0e43e1552ad493
+upstream_commit_selection: last commit before paper v4 date; not proven original experiment SHA
+runtime_image: beir/pyserini-fastapi@sha256:c18cb7f60db4390978d3260bb9e80c797bf11e07e102a407323c7c5c804c83bf
+pyserini: 0.12.0
+retriever: paper-anserini-bm25
+k1: 0.9
+b: 0.4
+fields:
+  contents: 1.0
+  title: 1.0
+top_k: 1000
+datasets: [scifact, nfcorpus]
+split: test
+search_query_batch_size: 20
+search_threads: 2
+container_cpus: 2
+container_memory: 3g
+java_heap: 1536m
+neural_run: false
+comparison_qwen:
+  candidate_k: 20
+  batch_size: 1
+  max_length: 512
+  batch_rest_seconds: 0.1
+  cooling_pause_c: 73
+  cooling_resume_c: 60
+  hard_stop_c: 80
+  minimum_initial_rest_seconds: 60
+  minimum_between_models_rest_seconds: 120
+  start_temperature_c: 55
