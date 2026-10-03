@@ -1,0 +1,6 @@
+dataset,model,metric,paper_value,source,table
+scifact,BM25,nDCG@10,0.665,https://arxiv.org/pdf/2104.08663v4,Table 2 page 7
+nfcorpus,BM25,nDCG@10,0.325,https://arxiv.org/pdf/2104.08663v4,Table 2 page 7
+fiqa,BM25,nDCG@10,0.236,https://arxiv.org/pdf/2104.08663v4,Table 2 page 7
+arguana,BM25,nDCG@10,0.315,https://arxiv.org/pdf/2104.08663v4,Table 2 page 7
+trec-covid,BM25,nDCG@10,0.656,https://arxiv.org/pdf/2104.08663v4,Table 2 page 7
