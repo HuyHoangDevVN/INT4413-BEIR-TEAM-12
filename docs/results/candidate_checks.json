@@ -1,0 +1,110 @@
+[
+  {
+    "run_id": "20261011_125607_76912e7b",
+    "source_run_id": "20261011_123318_86ae3723",
+    "candidate_k": 20,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.8766666666666667,
+    "recall100_reranked": 0.8766666666666667,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.9533333333333334,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  },
+  {
+    "run_id": "20261011_143638_8d39eaff",
+    "source_run_id": "20261011_141533_2f976292",
+    "candidate_k": 20,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.21287742703146523,
+    "recall100_reranked": 0.21287742703146523,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.3279598154378415,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  },
+  {
+    "run_id": "20261012_031511_57b74dda",
+    "source_run_id": "20261012_011743_164d4865",
+    "candidate_k": 100,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.9075555555555556,
+    "recall100_reranked": 0.9075555555555556,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.9075555555555556,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  },
+  {
+    "run_id": "20261012_032010_b259b035",
+    "source_run_id": "20261012_011854_5304b15c",
+    "candidate_k": 100,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.2500470454859485,
+    "recall100_reranked": 0.2500470454859485,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.2500470454859485,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  },
+  {
+    "run_id": "20261012_034346_41582e11",
+    "source_run_id": "20261011_123318_86ae3723",
+    "candidate_k": 50,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.9266666666666666,
+    "recall100_reranked": 0.9266666666666666,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.9533333333333334,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  },
+  {
+    "run_id": "20261012_040125_fd25658a",
+    "source_run_id": "20261011_141533_2f976292",
+    "candidate_k": 50,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.2744944080983989,
+    "recall100_reranked": 0.2744944080983989,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.3279598154378415,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  },
+  {
+    "run_id": "20261012_042342_4498124d",
+    "source_run_id": "20261011_123318_86ae3723",
+    "candidate_k": 100,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.9533333333333334,
+    "recall100_reranked": 0.9533333333333334,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.9533333333333334,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  },
+  {
+    "run_id": "20261012_050442_11865b28",
+    "source_run_id": "20261011_141533_2f976292",
+    "candidate_k": 100,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.3279598154378415,
+    "recall100_reranked": 0.3279598154378415,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.3279598154378415,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  },
+  {
+    "run_id": "20261012_130942_decb1de7",
+    "source_run_id": "20261012_124732_108c57cd",
+    "candidate_k": 100,
+    "changed_query_ids": [],
+    "candidate_set_preserved": true,
+    "recall100_prefix": 0.5394860497869755,
+    "recall100_reranked": 0.5394860497869755,
+    "recall100_delta_vs_same_candidates": 0.0,
+    "full_source_recall100": 0.5394860497869755,
+    "condition": "Recall@100 invariance against same saved candidates; full-source top100 comparison valid only for k=100 and unchanged output set"
+  }
+]
