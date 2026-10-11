@@ -1,0 +1,46 @@
+{
+  "evidence_collected_utc": "2026-10-12T16:02:31.291779+00:00",
+  "source_files": [
+    {
+      "file": "collection_summary.json",
+      "source": "collection_summary.json",
+      "sha256": "a32fafa682141a0499c6128c7c3e5f5204e445b0d9a3d73b876d455504caba7c"
+    },
+    {
+      "file": "quality.csv",
+      "source": "tables/quality.csv",
+      "sha256": "bc149445658946dc5e028baa81f0c70b1d8b079353b682427a98c9c7274c1df8"
+    },
+    {
+      "file": "comparisons.csv",
+      "source": "tables/comparisons.csv",
+      "sha256": "bced36f3b2ca3538ab2fc9efeb127b6d251fff8074502576a797f7f8a048b0d1"
+    },
+    {
+      "file": "statistical_summary.csv",
+      "source": "tables/statistical_summary.csv",
+      "sha256": "74accf1411daf1730969f0ea641590bbcc980ab75415c1560e35682bc1c27a2b"
+    },
+    {
+      "file": "efficiency.csv",
+      "source": "tables/efficiency.csv",
+      "sha256": "ed7deaf895e6ec92cdeaa71d687059c3cdeb1292e5cef430e8b560353279cd2b"
+    },
+    {
+      "file": "candidate_checks.json",
+      "source": "candidate_checks.json",
+      "sha256": "bb0bd01cf8f350671d0821c662064366ad823a608a5240699165131ab5bd450c"
+    },
+    {
+      "file": "evaluation_protocol.json",
+      "source": "evaluation_protocol.json",
+      "sha256": "003b4ab6ca67beff0caadf4bd7a7cc918b22e8ad4292cb54438c5697217e13a3"
+    },
+    {
+      "file": "report_selection.json",
+      "source": "report_selection.json",
+      "sha256": "311325d8a770a31d664b7813027dbb2d701e893955c529947d50ae680adcce24"
+    }
+  ],
+  "note": "Read-only summaries exported from the local evidence package; ranking archive not distributed in Git"
+}
