@@ -8,3 +8,9 @@
 *.csv text eol=lf
 *.txt text eol=lf
 *.png binary
+
+# Preserve original bytes for historical sources and checksum-bearing evidence.
+legacy/v1/** -text
+results/*.json -text
+docs/results/*.csv -text
+docs/results/*.json -text
