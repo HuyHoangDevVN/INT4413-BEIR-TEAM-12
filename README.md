@@ -1,5 +1,8 @@
 # INT4413-BEIR-TEAM-12
 
+> **Synthetic history:** this branch uses assigned commit dates. See [HISTORY_RECONSTRUCTION.md](HISTORY_RECONSTRUCTION.md); these dates are not development or experiment evidence.
+
+
 Framework thực nghiệm BEIR của Nhóm 12, PTIT, học phần Tìm kiếm và Truy xuất thông tin. Project đối chứng baseline paper và mở rộng với các checkpoint retrieval/reranking hiện đại; không tuyên bố phát minh thuật toán mới.
 
 ## Phạm vi và kết quả
