@@ -1,0 +1,15 @@
+dataset: scifact
+retriever:
+  type: hybrid
+dense:
+  model: BAAI/bge-m3
+  batch_size: 16
+bm25:
+  k1: 1.5
+  b: 0.75
+fusion:
+  type: rrf
+  k: 60
+reranker:
+  model: BAAI/bge-reranker-v2-m3
+  candidate_k: 100

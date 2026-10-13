@@ -1,0 +1,6 @@
+{
+  "dataset": "nfcorpus",
+  "model": "all-MiniLM-L6-v2",
+  "nDCG@10": 0.3166,
+  "Recall@100": 0.3115
+}

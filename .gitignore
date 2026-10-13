@@ -1,0 +1,50 @@
+# Local environments and Python tooling
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Datasets, weights, indices and experiment artifacts remain local
+/data/
+/cache/
+/runs/
+/reports/
+/report_handoff/
+/plots/
+/upstream/
+/results/*
+!/results/*.json
+
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.ssh/
+*.pfx
+*.p12
+
+# Generated archives/documents, editor and build output
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.docx
+*.pptx
+*.pdf
+.ipynb_checkpoints/
+.vscode/
+.idea/
+build/
+dist/
+*.egg-info/
+Thumbs.db
+.DS_Store

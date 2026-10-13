@@ -1,0 +1,18 @@
+experiments:
+  - {retriever: bm25}
+  - {retriever: minilm}
+  - {retriever: bm25, reranker: minilm}
+  - {retriever: bge-m3}
+  - {retriever: hybrid, dense_model: bge-m3}
+  - {retriever: hybrid, dense_model: bge-m3, reranker: bge-reranker-v2-m3, candidate_k: 100}
+  - {retriever: bm25, reranker: bge-reranker-v2-m3, candidate_k: 100}
+  - {retriever: bge-m3, reranker: bge-reranker-v2-m3, candidate_k: 100}
+  - {retriever: qwen3}
+  - {retriever: qwen3, reranker: qwen3}
+  - {retriever: hybrid, dense_model: bge-m3, reranker: qwen3}
+  - {retriever: bm25, reranker: bge-reranker-v2-m3, candidate_k: 20}
+  - {retriever: bm25, reranker: bge-reranker-v2-m3, candidate_k: 50}
+  - {retriever: bge-m3, reranker: bge-reranker-v2-m3, candidate_k: 20}
+  - {retriever: bge-m3, reranker: bge-reranker-v2-m3, candidate_k: 50}
+  - {retriever: hybrid, dense_model: bge-m3, reranker: bge-reranker-v2-m3, candidate_k: 20}
+  - {retriever: hybrid, dense_model: bge-m3, reranker: bge-reranker-v2-m3, candidate_k: 50}

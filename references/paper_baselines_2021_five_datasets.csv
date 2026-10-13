@@ -1,0 +1,16 @@
+dataset,system_id,metric,paper_value,source,table
+scifact,paper-anserini-bm25,nDCG@10,0.665,https://arxiv.org/html/2104.08663v4,Table 2
+scifact,paper-tas-b,nDCG@10,0.643,https://arxiv.org/html/2104.08663v4,Table 2
+scifact,paper-anserini-bm25+paper-minilm-ce+k100+precomputed,nDCG@10,0.688,https://arxiv.org/html/2104.08663v4,Table 2
+nfcorpus,paper-anserini-bm25,nDCG@10,0.325,https://arxiv.org/html/2104.08663v4,Table 2
+nfcorpus,paper-tas-b,nDCG@10,0.319,https://arxiv.org/html/2104.08663v4,Table 2
+nfcorpus,paper-anserini-bm25+paper-minilm-ce+k100+precomputed,nDCG@10,0.350,https://arxiv.org/html/2104.08663v4,Table 2
+fiqa,paper-anserini-bm25,nDCG@10,0.236,https://arxiv.org/html/2104.08663v4,Table 2
+fiqa,paper-tas-b,nDCG@10,0.300,https://arxiv.org/html/2104.08663v4,Table 2
+fiqa,paper-anserini-bm25+paper-minilm-ce+k100+precomputed,nDCG@10,0.347,https://arxiv.org/html/2104.08663v4,Table 2
+arguana,paper-anserini-bm25,nDCG@10,0.315,https://arxiv.org/html/2104.08663v4,Table 2
+arguana,paper-tas-b,nDCG@10,0.429,https://arxiv.org/html/2104.08663v4,Table 2
+arguana,paper-anserini-bm25+paper-minilm-ce+k100+precomputed,nDCG@10,0.311,https://arxiv.org/html/2104.08663v4,Table 2
+trec-covid,paper-anserini-bm25,nDCG@10,0.656,https://arxiv.org/html/2104.08663v4,Table 2
+trec-covid,paper-tas-b,nDCG@10,0.481,https://arxiv.org/html/2104.08663v4,Table 2
+trec-covid,paper-anserini-bm25+paper-minilm-ce+k100+precomputed,nDCG@10,0.757,https://arxiv.org/html/2104.08663v4,Table 2

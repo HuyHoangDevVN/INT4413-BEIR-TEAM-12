@@ -1,0 +1,6 @@
+{
+  "dataset": "scifact",
+  "model": "BM25",
+  "nDCG@10": 0.6523,
+  "Recall@100": 0.8731
+}

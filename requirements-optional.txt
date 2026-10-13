@@ -1,0 +1,2 @@
+pytrec-eval-terrier>=0.5.6,<0.6
+faiss-cpu>=1.9,<2

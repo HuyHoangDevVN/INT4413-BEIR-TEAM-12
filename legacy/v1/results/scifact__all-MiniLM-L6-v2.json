@@ -1,0 +1,6 @@
+{
+  "dataset": "scifact",
+  "model": "all-MiniLM-L6-v2",
+  "nDCG@10": 0.6451,
+  "Recall@100": 0.925
+}
