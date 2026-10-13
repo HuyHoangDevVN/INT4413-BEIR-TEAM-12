@@ -1,5 +1,4 @@
 """Sequential remaining-dataset matrix, new artifacts and owned-process thermal limits."""
-import fcntl
 import argparse
 import json
 import os
@@ -19,6 +18,11 @@ from run_paper_baseline import IMAGE
 
 
 def main(args):
+    if os.name != 'posix':
+        raise RuntimeError('This server supervisor requires Linux; use beir_lab.py on Windows')
+    import fcntl
+    (ROOT/'reports').mkdir(parents=True,exist_ok=True)
+    (ROOT/'runs').mkdir(parents=True,exist_ok=True)
     lock=(ROOT/'reports/remaining_datasets.lock').open('a')
     fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     session=ROOT/'reports'/('remaining_datasets_'+datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S'))

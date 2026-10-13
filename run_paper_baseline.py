@@ -80,6 +80,7 @@ def run(args):
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT / 'upstream/beir', text=True).strip()
     assert commit == SHA
     assert str(ROOT / 'upstream/beir') in str(sys.modules['beir'].__file__)
+    (ROOT / 'runs').mkdir(parents=True, exist_ok=True)
     if getattr(args, 'output', None):
         folder = Path(args.output).resolve()
         assert folder.parent == ROOT / 'runs' and folder.is_dir()

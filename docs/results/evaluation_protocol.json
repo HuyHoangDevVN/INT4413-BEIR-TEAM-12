@@ -1,0 +1,27 @@
+{
+  "collector_evaluator": "standalone saved-ranking evaluator",
+  "version": "1",
+  "linear_gain": "max(rel,0)",
+  "binary_relevance": "rel > 0",
+  "average": "macro over all query IDs in test qrels",
+  "missing_queries": "zero",
+  "no_positive_queries": "zero",
+  "ties": "preserve explicitly saved rank; no score re-sort",
+  "cutoffs": {
+    "nDCG": 10,
+    "Recall": [
+      10,
+      100
+    ],
+    "MRR": 10,
+    "MAP": 100
+  },
+  "tolerance_absolute": 1e-12,
+  "legacy_gain": "2**rel - 1 separately named",
+  "date_utc": "2026-10-12T16:02:31.291779+00:00",
+  "command": "python scripts/collect_evidence.py --root PROJECT --output NEW_DIR [--server HOST --port PORT --ssh-key KEY]",
+  "note": "Re-evaluation of existing outputs, not a rerun of retriever/model; shortened ranking metrics describe only saved output",
+  "crosscheck_evaluator": "pytrec_eval using saved rank-preserving synthetic scores; MRR clipped to rank 10",
+  "pytrec_eval_distribution_version": "0.5.10",
+  "source_script_sha256": "32cccfa6091828f53cbeb2bb24ee5ef08ef43e6ca41d21d053480da19f6b4cfb"
+}
